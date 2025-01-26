@@ -1,30 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-html,
-body {
-  @apply bg-white text-black;
-
-  .product-image {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    /* Görseli çerçeveye sığdır */
-    margin-bottom: 8px;
-  }
-
-  .products-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* 2 sütun */
-    gap: 16px;
-    /* Ürünler arasındaki boşluk */
-  }
-
-  .button-color-blue {
-    background-color: #247ec5;
-    color: white;
-    /* Kontrast için beyaz yazı */
-  }
-}

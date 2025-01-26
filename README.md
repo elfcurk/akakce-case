@@ -15,7 +15,7 @@ Bu proje, belirli istenilen gereksinimlere uygun şekilde, Remix framework’ü 
   - Dikey listelenen ürünler İki sütunlu grid yapısı ile, 2'li ve pagination kullanılarak listelendi.
   - Dikey listelenen ürünlerdeki pagination client-side şeklinde yapıldı.
   - Ürün detay isteğinden dönen response’taki bilgiler kullanılarak ürün detay sayfası oluşturuldu. 
-  - Response'ta bulunan ve bir sonraki sayfa url'ini ifade eden "nextUrl" parametresi null gelene kadar,   ürünler çekilerek listelendi. (Bunun için hem pagination, hem de "Daha fazla göster" butonu eklendi)
+  - Response'ta bulunan ve bir sonraki sayfa url'ini ifade eden "nextUrl" parametresi null gelene kadar,   ürünler çekilerek listelendi. (Bunun için hem pagination, hem de "Daha Fazla Yükle" butonu eklendi)
   - Projede Tailwind CSS framework'ü ağırlıklı olarak kullanıldı.
   - Projede Remix framework’ü ile birlikte React ve TypeScript kullanılmıştır.
   - Proje genel olarak SOLID Prensiplerine uymaktadır.
@@ -24,6 +24,8 @@ Bu proje, belirli istenilen gereksinimlere uygun şekilde, Remix framework’ü 
   - Ürün detay sayfasındaki detay bilgileri, `code` parametresi ile server-side'da API’den çekildi.
   - Ürün detay sayfasında ürün markası,adı(modeli), popülerliği, görseli, puanı, depolama seçenekleri,   fiyatı, güncellenme zamanı gibi özellikler gösterildi.
   - Ürün puanı (rating) yıldız - star rating (tam, yarım, boş olacak şekilde) bileşeni ile eklendi. 
+  - Unit Test yazılamadı.
+  - Projenin tamamı bittikten sonra GitHub'a eklendi.
   
 ### Teknik Detaylar
 - **API İstekleri:**

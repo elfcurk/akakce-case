@@ -36,7 +36,7 @@ function ProductDetailPage() {
         </div>
         {/* Yıldız Derecelendirme */}
         <div className="flex justify-center items-center mb-4">
-          <StarRating rating={productDetail.rating} /> 
+          <StarRating rating={productDetail.rating} />
           <p className="ml-2 text-sm text-gray-600 font-bold">({productDetail.rating})</p>
         </div>
 
@@ -48,7 +48,7 @@ function ProductDetailPage() {
               key={index}
               onClick={() => handleStorageClick(storage)}
               className={`px-4 py-2 border rounded-lg font-bold${selectedStorage === storage
-                ? "px-6 py-2 text-white font-semibold rounded-lg bg-gradient-to-r button-color-blue shadow-md hover:shadow-lg hover:from-blue-600 hover:to-purple-600 transition-all duration-300"
+                ? "px-6 py-2 text-white font-semibold rounded-lg bg-gradient-to-r bg-[#247ec5] shadow-md hover:shadow-lg hover:from-blue-600 hover:to-purple-600 transition-all duration-300"
                 : "bg-white font-bold text-gray-800 border-gray-200 hover:bg-gray-100"
                 }`}
             >
