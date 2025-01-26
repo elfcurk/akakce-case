@@ -4,9 +4,27 @@
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  @apply bg-white text-black;
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
+  .product-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    /* Görseli çerçeveye sığdır */
+    margin-bottom: 8px;
+  }
+
+  .products-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 sütun */
+    gap: 16px;
+    /* Ürünler arasındaki boşluk */
+  }
+
+  .button-color-blue {
+    background-color: #247ec5;
+    color: white;
+    /* Kontrast için beyaz yazı */
   }
 }
